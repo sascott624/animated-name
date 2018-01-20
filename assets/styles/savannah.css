@@ -1,0 +1,61 @@
+html, body {
+  height: 100%;
+  background: aliceblue;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+  .container {
+    position: relative;
+    height: inherit;
+  }
+
+    .name {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+    }
+
+      .letter {
+        position: absolute;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .letter-s {
+        background-image: url(../svg/s.svg);
+      }
+
+      .letter-a {
+        background-image: url(../svg/a.svg);
+      }
+
+      .letter-v {
+        background-image: url(../svg/v.svg);
+      }
+
+      .letter-n {
+        background-image: url(../svg/n.svg);
+      }
+
+      .letter-h {
+        background-image: url(../svg/h.svg);
+      }
+
+      .letter-c {
+        background-image: url(../svg/c.svg);
+      }
+
+      .letter-o {
+        background-image: url(../svg/o.svg);
+      }
+
+      .letter-t {
+        background-image: url(../svg/t.svg);
+      }
